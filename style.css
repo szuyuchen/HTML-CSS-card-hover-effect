@@ -1,0 +1,26 @@
+.wrapper {
+  width: 80%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card { 
+  width: 300px;
+  margin: 10px 10px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+  transition: 1.5s;
+}
+
+.card img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
